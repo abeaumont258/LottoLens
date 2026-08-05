@@ -124,3 +124,56 @@ body {
 
     margin-bottom: 40px;
 }
+/* ==========================================
+   LottoLens
+   Page 001
+   Component 001.04 - Discovery Bar
+========================================== */
+
+.discovery-bar {
+    width: 700px;
+    max-width: 90%;
+
+    height: 64px;
+
+    background: rgba(255, 255, 255, 0.05);
+
+    border: 1px solid rgba(183, 140, 255, 0.25);
+
+    border-radius: 50px;
+
+    backdrop-filter: blur(14px);
+
+    display: flex;
+    align-items: center;
+
+    padding: 0 28px;
+
+    transition: 0.35s ease;
+}
+
+.discovery-bar:hover {
+    border-color: #b78cff;
+
+    box-shadow: 0 0 25px rgba(183, 140, 255, 0.18);
+}
+
+.discovery-bar input {
+    width: 100%;
+
+    background: transparent;
+
+    border: none;
+
+    outline: none;
+
+    color: #ffffff;
+
+    font-size: 18px;
+
+    letter-spacing: 1px;
+}
+
+.discovery-bar input::placeholder {
+    color: rgba(255,255,255,0.45);
+}
