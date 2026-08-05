@@ -247,7 +247,7 @@ body {
 
     background: transparent;
 
-    border: 1px solid rgba(183, 140, 255, 0.35);
+    border: 1px solid var(--lens-border-purple);
 
     border-radius: 40px;
 
