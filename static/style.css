@@ -51,7 +51,7 @@
 
 }
 
-3/* ==========================================
+/* ==========================================
    LottoLens
    Page 001
    Component 001.01 - Canvas
@@ -107,7 +107,7 @@ body {
 }
 
 .navigation-logo {
-    color: #ffffff;
+    color: var(--lens-white);
     font-size: 24px;
     font-weight: 300;
     letter-spacing: 6px;
