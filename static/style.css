@@ -29,6 +29,7 @@ body {
     background: #000000;
     position: relative;
 }
+
 /* ==========================================
    LottoLens
    Page 001
@@ -75,6 +76,7 @@ body {
 .navigation-links a:hover {
     color: #b78cff;
 }
+
 /* ==========================================
    LottoLens
    Page 001
@@ -124,6 +126,7 @@ body {
 
     margin-bottom: 40px;
 }
+
 /* ==========================================
    LottoLens
    Page 001
@@ -176,4 +179,49 @@ body {
 
 .discovery-bar input::placeholder {
     color: rgba(255,255,255,0.45);
+}
+
+/* ==========================================
+   LottoLens
+   Page 001
+   Component 001.05 - Discover Button
+========================================== */
+
+.discover-button {
+    margin-top: 28px;
+
+    padding: 16px 40px;
+
+    background: transparent;
+
+    border: 1px solid rgba(183, 140, 255, 0.35);
+
+    border-radius: 40px;
+
+    color: #ffffff;
+
+    font-size: 15px;
+    font-weight: 400;
+
+    letter-spacing: 2px;
+
+    cursor: pointer;
+
+    transition: all 0.35s ease;
+}
+
+.discover-button:hover {
+
+    border-color: #b78cff;
+
+    background: rgba(183, 140, 255, 0.08);
+
+    box-shadow: 0 0 30px rgba(183, 140, 255, 0.18);
+
+    transform: translateY(-2px);
+}
+
+.discover-button:active {
+
+    transform: translateY(0px);
 }
