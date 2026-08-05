@@ -160,7 +160,7 @@ body {
 }
 
 .hero-title {
-    color: #ffffff;
+    color: var(--lens-white);
 
     font-size: 58px;
     font-weight: 300;
