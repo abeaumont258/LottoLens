@@ -194,7 +194,7 @@ body {
 
     background: rgba(255, 255, 255, 0.05);
 
-    border: 1px solid rgba(183, 140, 255, 0.25);
+    border: 1px solid var(--lens-border-purple);
 
     border-radius: 50px;
 
