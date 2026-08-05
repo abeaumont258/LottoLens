@@ -223,7 +223,7 @@ body {
 
     outline: none;
 
-    color: #ffffff;
+    color: var(--lens-white);
 
     font-size: 18px;
 
