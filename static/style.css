@@ -75,3 +75,52 @@ body {
 .navigation-links a:hover {
     color: #b78cff;
 }
+/* ==========================================
+   LottoLens
+   Page 001
+   Component 001.03 - Hero Section
+========================================== */
+
+.hero {
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-logo {
+    width: 220px;
+    height: 220px;
+
+    margin-bottom: 35px;
+}
+
+.hero-title {
+    color: #ffffff;
+
+    font-size: 58px;
+    font-weight: 300;
+
+    letter-spacing: 10px;
+
+    margin-bottom: 15px;
+}
+
+.hero-subtitle {
+    color: #b78cff;
+
+    font-size: 18px;
+
+    letter-spacing: 2px;
+
+    margin-bottom: 40px;
+}
