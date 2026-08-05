@@ -341,7 +341,7 @@ body {
 /* ==========================================
    LottoLens
    Page 001
-   Component 001.10 - Identity
+   Component 001.10 - Identity (D++)
 ========================================== */
 
 .identity {
@@ -352,7 +352,7 @@ body {
 
     justify-content: center;
 
-    gap: 42px;
+    gap: 34px;
 
     margin-top: 42px;
 
@@ -363,21 +363,20 @@ body {
 
     color: #ffffff;
 
-    font-size: 84px;
+    font-size: 76px;
 
     font-weight: 300;
 
-    letter-spacing: 2px;
+    letter-spacing: 1.5px;
 
     line-height: 1;
 
-    opacity: 0.98;
-
-    text-shadow:
-        0 0 12px rgba(183,140,255,0.05),
-        0 0 22px rgba(183,140,255,0.03);
+    opacity: 0.99;
 
     user-select: none;
+
+    text-shadow:
+        0 0 6px rgba(183,140,255,0.04);
 }
 
 .identity-signal {
@@ -388,7 +387,7 @@ body {
 
     justify-content: center;
 
-    gap: 10px;
+    gap: 8px;
 
     cursor: pointer;
 
@@ -397,24 +396,24 @@ body {
 
 .identity-signal span {
 
-    width: 58px;
+    width: 52px;
 
-    height: 4px;
+    height: 3px;
 
-    border-radius: 20px;
+    border-radius: 999px;
 
-    background: #b78cff;
+    background: #B78CFF;
 
     box-shadow:
-        0 0 6px rgba(183,140,255,0.20),
-        0 0 16px rgba(183,140,255,0.08);
+        0 0 8px rgba(183,140,255,0.10);
 
     transition: all 0.35s ease;
 }
 
 .identity-signal:hover span {
 
+    background: #C09BFF;
+
     box-shadow:
-        0 0 10px rgba(183,140,255,0.28),
-        0 0 22px rgba(183,140,255,0.12);
+        0 0 10px rgba(183,140,255,0.16);
 }
