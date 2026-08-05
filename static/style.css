@@ -253,3 +253,33 @@ body {
 
     position: relative;
 }
+
+/* ==========================================
+   LottoLens
+   Page 001
+   Component 001.07 - Purple Aura
+========================================== */
+
+.lens-aura {
+
+    position: absolute;
+
+    width: 340px;
+    height: 340px;
+
+    border-radius: 50%;
+
+    background: radial-gradient(
+        circle,
+        rgba(183,140,255,0.22) 0%,
+        rgba(183,140,255,0.10) 45%,
+        rgba(183,140,255,0.03) 70%,
+        transparent 100%
+    );
+
+    filter: blur(35px);
+
+    z-index: -1;
+
+    pointer-events: none;
+}
