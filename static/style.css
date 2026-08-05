@@ -251,7 +251,7 @@ body {
 
     border-radius: 40px;
 
-    color: #ffffff;
+    color: var(--lens-white);
 
     font-size: 15px;
     font-weight: 400;
