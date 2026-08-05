@@ -265,7 +265,7 @@ body {
 
 .discover-button:hover {
 
-    border-color: #b78cff;
+    border-color: var(--lens-purple);
 
     background: rgba(183, 140, 255, 0.08);
 
