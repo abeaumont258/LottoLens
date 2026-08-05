@@ -1,4 +1,4 @@
-/* ==========================================
+3/* ==========================================
    LottoLens
    Page 001
    Component 001.01 - Canvas
@@ -224,4 +224,32 @@ body {
 .discover-button:active {
 
     transform: translateY(0px);
+}
+
+/* ==========================================
+   LottoLens
+   Page 001
+   Component 001.06 - Lens Crystal
+========================================== */
+
+.lens-crystal {
+
+    width: 220px;
+    height: 220px;
+
+    border-radius: 50%;
+
+    background: radial-gradient(
+        circle at 35% 35%,
+        rgba(255,255,255,0.95) 0%,
+        rgba(210,190,255,0.55) 22%,
+        rgba(110,70,200,0.40) 58%,
+        rgba(20,12,40,0.95) 100%
+    );
+
+    border: 2px solid rgba(255,255,255,0.10);
+
+    overflow: hidden;
+
+    position: relative;
 }
