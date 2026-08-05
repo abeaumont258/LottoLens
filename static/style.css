@@ -283,3 +283,57 @@ body {
 
     pointer-events: none;
 }
+
+/* ==========================================
+   LottoLens
+   Page 001
+   Component 001.08 - Crystal Reflection
+========================================== */
+
+.lens-crystal::before {
+
+    content: "";
+
+    position: absolute;
+
+    top: 18px;
+    left: 30px;
+
+    width: 58px;
+    height: 34px;
+
+    border-radius: 50%;
+
+    background: rgba(255,255,255,0.30);
+
+    transform: rotate(-35deg);
+
+    filter: blur(2px);
+
+    opacity: 0.9;
+
+    pointer-events: none;
+}
+
+.lens-crystal::after {
+
+    content: "";
+
+    position: absolute;
+
+    bottom: 38px;
+    right: 26px;
+
+    width: 10px;
+    height: 10px;
+
+    border-radius: 50%;
+
+    background: rgba(255,255,255,0.45);
+
+    filter: blur(1px);
+
+    opacity: 0.75;
+
+    pointer-events: none;
+}
