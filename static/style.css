@@ -439,14 +439,17 @@ body {
 
     position: absolute;
 
-    inset: 0;
+    inset: -2px;
 
-    border: 2px solid rgba(183,140,255,0.95);
+    border: 2.4px solid rgba(183,140,255,0.92);
 
     border-radius: 50%;
 
+    transform: scaleX(1.03) scaleY(1.05);
+
     box-shadow:
-        0 0 10px rgba(183,140,255,0.18);
+        0 0 10px rgba(183,140,255,0.18),
+        0 0 24px rgba(183,140,255,0.08);
 
 }
 
