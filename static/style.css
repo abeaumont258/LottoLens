@@ -909,6 +909,46 @@ body {
 }
 
 /* ==========================================
+   Lens
+   Page 001
+   Component 001.12 - Cosmic Atmosphere
+========================================== */
+
+.cosmic-atmosphere {
+
+    position: absolute;
+
+    inset: 0;
+
+    background:
+
+        radial-gradient(
+            circle at 18% 82%,
+            rgba(183,140,255,0.035) 0%,
+            transparent 45%
+        ),
+
+        radial-gradient(
+            circle at 82% 18%,
+            rgba(183,140,255,0.025) 0%,
+            transparent 55%
+        ),
+
+        radial-gradient(
+            circle at 50% 50%,
+            rgba(255,255,255,0.012) 0%,
+            transparent 75%
+        );
+
+    pointer-events: none;
+
+    opacity: 1;
+
+    z-index: -4;
+
+}
+
+/* ==========================================
    LottoLens
    Page 001
    Component 001.10 - Identity (D++)
