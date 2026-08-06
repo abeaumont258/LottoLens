@@ -456,6 +456,50 @@ body {
 /* ==========================================
    Lens
    Page 001
+   Component 001.11 - Celestial Light Source
+========================================== */
+
+.celestial-light {
+
+    position: absolute;
+
+    top: -140px;
+    right: -120px;
+
+    width: 520px;
+    height: 520px;
+
+    border-radius: 50%;
+
+    background: radial-gradient(
+
+        circle,
+
+        rgba(183,140,255,0.22) 0%,
+
+        rgba(183,140,255,0.12) 24%,
+
+        rgba(183,140,255,0.05) 46%,
+
+        rgba(183,140,255,0.015) 68%,
+
+        transparent 100%
+
+    );
+
+    filter: blur(45px);
+
+    opacity: 0.95;
+
+    pointer-events: none;
+
+    z-index: -3;
+
+}
+
+/* ==========================================
+   Lens
+   Page 001
    Component 001.12 - Cosmic Atmosphere
 ========================================== */
 
